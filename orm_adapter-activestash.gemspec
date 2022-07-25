@@ -34,6 +34,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "bundler", "~> 2.0"
   s.add_development_dependency "github-release", "~> 0.2"
+  s.add_development_dependency "git-version-bump", "~> 0.17"
   s.add_development_dependency "rake", "~> 13.0"
   s.add_development_dependency "redcarpet", "~> 3.0"
   # Need to lock `uri` at this version to prevent autobuild failures.
